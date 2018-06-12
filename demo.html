@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>模板页面</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="reset.css">
+	<script src="../public/js/jquery.min.js"></script>
+	<script src="vue.js"></script>
+	<script src="vue-resource.js"></script>
+	<script>
+//		750设计稿
+		/*document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5  < 128/3 ? 128/3 : document.documentElement.clientWidth / 7.5 + 'px';
+		 window.onresize = function(){
+		 document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5  < 128/3 ? 128/3 : document.documentElement.clientWidth / 7.5 + 'px';
+		 }
+		 console.log(document.documentElement.style.fontSize);*/
+//		640设计稿
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 3.75  < 64/3 ? 64/3 : document.documentElement.clientWidth / 3.75 + 'px';
+		window.onresize = function(){
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 3.75  < 64/3 ? 64/3 : document.documentElement.clientWidth / 3.75 + 'px';
+		}
+		console.log(document.documentElement.style.fontSize);
+	</script>
+</head>
+<body>
+
+<script src="demo.js"></script>
+</body>
+</html>
